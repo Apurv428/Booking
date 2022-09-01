@@ -1,6 +1,6 @@
 .header {
   background-color: #003580;
-  color: #fff;
+  color: white;
   display: flex;
   justify-content: center;
   position: relative;
@@ -9,7 +9,7 @@
 .headerContainer {
   width: 100%;
   max-width: 1024px;
-  margin: 20px 0 100px 0px;
+  margin: 20px 0px 100px 0px;
 }
 
 .headerContainer.listMode {
@@ -28,20 +28,19 @@
   gap: 10px;
 }
 
-
 .headerListItem.active {
-  border: 1px solid #fff;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 20px;
 }
 
 .headerDesc {
-  margin: 20px 0;
+  margin: 20px 0px;
 }
 
 .headerBtn {
   background-color: #0071c2;
-  color: #fff;
+  color: white;
   font-weight: 500;
   border: none;
   padding: 10px;
